@@ -1,0 +1,61 @@
+{
+  "1309614242785398826": {
+    "staff_role_id": null,
+    "category_id": null,
+    "transcript_channel_id": null,
+    "log_channel_id": 1420554390477082735,
+    "max_open_per_user": 1,
+    "panel_channel_id": null,
+    "panel_title": "Support - Tickets",
+    "panel_description": "Cliquez sur le bouton ci-dessous pour créer un ticket.",
+    "ticket_types": [
+      {
+        "label": "Support",
+        "emoji": "💬"
+      },
+      {
+        "label": "Signalement",
+        "emoji": "🚨"
+      }
+    ],
+    "roles_allowed_ids": [],
+    "ping_staff_on_open": true,
+    "welcome_message": "Expliquez votre demande. Un membre du staff vous répondra bientôt.",
+    "open_method": "button",
+    "reasons": [
+      "Support",
+      "Signalement"
+    ],
+    "panel_message_ids": []
+  },
+  "1227016313508204677": {
+    "staff_role_id": 1227018119189495903,
+    "category_id": 1227642407571689586,
+    "transcript_channel_id": 1227642409404600370,
+    "log_channel_id": 1227642409404600370,
+    "max_open_per_user": 1,
+    "panel_channel_id": 1227641314951037140,
+    "panel_title": "Tickets",
+    "panel_description": "Ouvrez un ticket pour discuter de quelques choses par rapport au serveur avec Juss ou Calbusto",
+    "ticket_types": [
+      {
+        "label": "Support",
+        "emoji": "💬"
+      },
+      {
+        "label": "Signalement",
+        "emoji": "🚨"
+      }
+    ],
+    "roles_allowed_ids": [],
+    "ping_staff_on_open": true,
+    "welcome_message": "Bienvenue dans ton ticket, attend un peu",
+    "open_method": "select",
+    "reasons": [
+      "Passer Membre",
+      "Passer développeur vérif",
+      "Proposition trouvaille"
+    ],
+    "panel_message_ids": []
+  }
+}
