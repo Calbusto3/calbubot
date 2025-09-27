@@ -17,9 +17,7 @@ def create_bot() -> commands.Bot:
     bot = commands.Bot(command_prefix=get_prefix, intents=intents, help_command=None)
     return bot
 
-
 bot = create_bot()
-
 
 @bot.event
 async def on_ready():
